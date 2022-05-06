@@ -18,6 +18,7 @@ namespace UserInfoApi.Controllers
         [Route("api/[controller]")]
         public ActionResult GetUsers()
         {
+            //Added comments...
             return Ok(_userInfoService.GetAllUsers());
         }
         [HttpGet]
