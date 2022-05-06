@@ -25,6 +25,7 @@ namespace UserInfoApi.Controllers
         [Route("api/[controller]/{Id}")]
         public ActionResult GetAllUsers(int Id)
         {
+            //Added comments from local branch
             return Ok(_userInfoService.GetAllUsers());
         }
         [HttpPost]
