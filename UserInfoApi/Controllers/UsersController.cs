@@ -32,6 +32,7 @@ namespace UserInfoApi.Controllers
         [Route("api/[controller]")]
         public ActionResult AddUser(UserDetails userInfo)
         {
+        //Adding comments for git pull
             return Ok(_userInfoService.AddUser(userInfo));
         }
     }
